@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--The head tag defines the stylesheets, includes jquery and jqueryui, and defines the page title-->
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/smoothness/jquery-ui.css" integrity="sha384-AUxBc4TYOEuk4Hp24650vW1R1zXkuFE8IK5cgdi5qyXRKuc1Xx2ndBiefujL0Qho" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr" crossorigin="anonymous"></script>
+    <title>Nathaniel's Wacky Little Search Engine</title>
+</head>
+
+<body>
+    <h1 id="pageTitle">Nathaniel's Wacky Little Search Engine</h1>
+
+    <!--This div defines the query textbox-->
+    <div id="queryDiv">
+        <input type="text" id="query" placeholder="Enter Search" class="ui-widget ui-widget-content" />
+    </div>
+
+    <!--This div defines the buttons for the page-->
+
+    <div id="buttonDiv">
+        <button id="searchButton" class="ui-button ui-widget ui-state-default ui-corner-all">
+            Search
+        </button>
+        <button id="timeButton" class="ui-button ui-widget ui-state-default ui-corner-all">Time</button>
+        <button id="imFeelingLuckyButton" class="ui-button ui-widget ui-state-default ui-corner-all">I'm Feeling Lucky</button>
+        <button id="clearPageButton" class="ui-button ui-widget ui-state-default ui-corner-all">Clear Page</button>
+    </div>
+
+    <!--This div defines the area for the search results-->
+    <div id="searchResults"></div>
+
+    <!--This div defines the area for the time-->
+    <div id="time" title="Current Time">
+        <p id="currentTime"></p>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

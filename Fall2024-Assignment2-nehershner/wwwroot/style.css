@@ -1,0 +1,56 @@
+/* Styling for search results */
+#searchResults {
+    display: none;
+    margin-top: 50px;
+}
+
+/* Styling for time div */
+#time {
+    display: none;
+}
+
+/* Styling for entire page */
+body{
+    background-image: url("space.jpg");
+    color: white;
+}
+
+/* Styling for the div containing the text box */
+#queryDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+/*Styling for the div containing the buttons */
+#buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for search button */
+#searchButton{
+    margin-right: 20px;
+}
+
+/* Styling for time button */
+#timeButton{
+    margin-right: 20px;
+}
+
+/* Styling for query textbox */
+#query{
+    width:500px;
+}
+
+/* Styling for I'm Feeling Lucky button */
+#imFeelingLuckyButton{
+    margin-right: 20px;
+}
+
+/* Styling for a tags */
+a{
+    color: white;
+}
